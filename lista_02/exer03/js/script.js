@@ -10,7 +10,7 @@ document.write("<th>Disciplina</th>");
 document.write("</tr>");
 
 
-for (var i = 0; i < cursos.length; i++) {
+for (var i in cursos) {
     document.write("<tr><td>" + codigos[i] + "</td><td>" + cursos[i] + "</td></tr>");
 
 }
